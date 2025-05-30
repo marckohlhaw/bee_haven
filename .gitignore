@@ -1,0 +1,23 @@
+# Ignore data files
+data/bronze/new/*
+data/bronze/archive/*
+data/silver/cleaned_parquet/*
+data/silver/validation_logs/*
+data/gold/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
